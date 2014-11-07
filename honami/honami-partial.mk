@@ -18,4 +18,29 @@ PRODUCT_PACKAGES += \
 	Speaker_cal \
 	ansi_cprng \
 	scsi_wait_scan \
-	wlan
+	wlan \
+	libcald_hal \
+	libcameralight \
+	flash \
+	LGI02BN1 \
+	LGI02BN1_CACAO \
+	LGI02BN1_IMX132 \
+	product \
+	product_CACAO \
+	SEM02BN1 \
+	SEM02BN1_CACAO \
+	SEM02BN1_IMX132 \
+	SOI13BS9 \
+	SOI13BS9_CACAO \
+	SOI20BS0 \
+	SOI20BS0_BU64296GWX \
+	SOI20BS0_CACAO \
+        SOI20BS0_IMX200 \
+	libmmcamera2_iface_modules \
+	libmmcamera2_imglib_modules \
+	libmmcamera2_isp_modules \
+	libmmcamera2_sensor_modules \
+	libmmcamera2_stats_algorithm \
+	libmmcamera2_stats_modules \
+	liboemcamera
+

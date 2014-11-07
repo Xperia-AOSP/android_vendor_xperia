@@ -16,6 +16,8 @@ PRODUCT_PACKAGES += \
 	bt_addr \
 	hci_qcomm_init \
 	irsc_util \
+	mm-pp-daemon \
+	mm-qcamera-daemon \
 	netmgrd \
 	qmuxd \
 	rmt_storage \
@@ -23,6 +25,9 @@ PRODUCT_PACKAGES += \
 	ta_qmi_service \
 	wcnss_addr \
 	tad_static \
+	taimport \
+	ta_param_loader \
+	time_daemon \
 	Bluetooth_cal \
 	General_cal \
 	Global_cal \
@@ -140,6 +145,8 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
+	libexcal_halctrl_plugin \
+	libexcal_idtctrl_plugin \
 	copybit.msm8974 \
 	nfc.msm8974 \
 	libMcClient \
@@ -152,16 +159,43 @@ PRODUCT_PACKAGES += \
 	libOmxVdec \
 	libOmxVenc \
 	libc2dcolorconvert \
+	libcacao_chocoball \
+	libcacao_client \
+	libcacao_common \
+	libcacao_imgproc \
+	libcacao_jpeg \
+	libcacao_pal \
+	libcacao_parammgr \
+	libcacao_service \
+	libcald_client \
+	libcald_imageutil \
+	libcald_pal \
+	libcald_server \
+	libcald_util \
+	libcamera_clientsemc \
+	libcammww \
 	libcnefeatureconfig \
 	libdivxdrmdecrypt \
+	libexcal_core \
+	libexcal_system \
+	libface \
+	libface_wrapper \
+	libfmradio \
+	librmradio.sony-iris \
 	libidd \
 	libkeyctrl \
 	libmiscta \
+	libMiscTaAccessor \
+	libmmcamera_interface \
 	libmm-omxcore \
 	libmmjpeg_interface \
 	libnpfinal \
 	libpin-cache \
 	libprotobuf-c \
+	libsomc_chocoballpal \
+	libsony_chokoball \
+	libsony_chokoballrsc \
+	libsony_face \
 	libqomx_core \
 	libstagefrighthw \
 	libta \
@@ -203,9 +237,25 @@ PRODUCT_PACKAGES += \
 	libfastcvopt \
 	libgsl \
 	libidl \
+	libjpegdhw \
+	libjpegehw \
 	liblistenhardware \
 	libllvm-qcom \
 	libmm-abl-oem \
+	libmmcamera2_c2d_module \
+	libmmcamera2_cpp_module \
+	libmmcamera2_pproc_modules \
+	libmmcamera2_vpe_module \
+	libmmcamera2_wnr_module \
+	libmmcamera_faceproc \
+	libmmcamera_hdr_gb_lib \
+	libmmcamera_hdr_lib \
+	libmmcamera_imglib \
+	libmmcamera_sunny_p5v23c_eeprom \
+	libmmcamera_sunny_p12v01m_eeprom \
+	libmmcamera_truly_cm7700_eeprom \
+	libmmcamera_tuning \
+	libmmcamera_wavelet_lib \
 	libmm-abl \
 	libmm-color-convertor \
 	libmmjpeg \
